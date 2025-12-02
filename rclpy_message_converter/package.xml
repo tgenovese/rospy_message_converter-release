@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package format="3">
   <name>rclpy_message_converter</name>
-  <version>2.0.1</version>
+  <version>2.0.2</version>
   <description>Converts between Python dictionaries and JSON to rclpy messages.</description>
   <maintainer email="martin.guenther@dfki.de">Martin Günther</maintainer>
   <license>Apache License 2.0</license>
   <url type="website">http://ros.org/wiki/rospy_message_converter</url>
-  <url type="repository">https://github.com/uos/rospy_message_converter</url>
-  <url type="bugtracker">https://github.com/uos/rospy_message_converter/issues</url>
+  <url type="repository">https://github.com/DFKI-NI/rospy_message_converter</url>
+  <url type="bugtracker">https://github.com/DFKI-NI/rospy_message_converter/issues</url>
   <author email="baalexander@gmail.com">Brandon Alexander</author>
   <author email="martin.guenther@dfki.de">Martin Günther</author>
 
