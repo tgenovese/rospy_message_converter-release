@@ -1,3 +1,4 @@
+release_repo_url: git@github.com:tgenovese/rospy_message_converter-release.git
 tracks:
   foxy:
     actions:
