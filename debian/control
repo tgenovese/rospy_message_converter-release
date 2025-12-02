@@ -1,0 +1,12 @@
+Source: ros-jazzy-rclpy-message-converter
+Section: misc
+Priority: optional
+Maintainer: Martin Günther <martin.guenther@dfki.de>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-jazzy-ament-copyright <!nocheck>, ros-jazzy-ament-flake8 <!nocheck>, ros-jazzy-ament-pep257 <!nocheck>, ros-jazzy-builtin-interfaces, ros-jazzy-geometry-msgs <!nocheck>, ros-jazzy-rclpy, ros-jazzy-rclpy-message-converter-msgs <!nocheck>, ros-jazzy-rosidl-default-generators, ros-jazzy-std-msgs <!nocheck>, ros-jazzy-std-srvs <!nocheck>, ros-jazzy-tf2-msgs <!nocheck>, ros-jazzy-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://ros.org/wiki/rospy_message_converter
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-rclpy-message-converter
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-numpy, ros-jazzy-rclpy, ros-jazzy-rosidl-parser, ros-jazzy-rosidl-runtime-py, ros-jazzy-ros-workspace
+Description: Converts between Python dictionaries and JSON to rclpy messages.
