@@ -1,0 +1,23 @@
+ros-jazzy-rclpy-message-converter-msgs (2.0.2-1noble) noble; urgency=high
+
+  * Move repo to DFKI-NI
+  * Contributors: Martin Günther
+
+ -- Martin Günther <martin.guenther@dfki.de>  Fri, 26 Apr 2024 04:00:00 -0000
+
+ros-jazzy-rclpy-message-converter-msgs (2.0.1-1noble) noble; urgency=high
+
+
+
+ -- Martin Günther <martin.guenther@dfki.de>  Mon, 14 Nov 2022 05:00:00 -0000
+
+ros-jazzy-rclpy-message-converter-msgs (2.0.0-1noble) noble; urgency=high
+
+  * Initial release into ROS 2
+    The rclpy_message_converter_msgs package was split out of
+    rclpy_message_converter, as it is only a test dependency.
+  * Contributors: Martin Günther, relffok
+
+ -- Martin Günther <martin.guenther@dfki.de>  Mon, 12 Sep 2022 04:00:00 -0000
+
+
